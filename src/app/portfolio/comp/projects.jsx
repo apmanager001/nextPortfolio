@@ -40,18 +40,20 @@ const ProjectSection = () => {
               className="h-32 border border-x-gray-600 border-y-gray-600 hover:border-white my-2"
               alt="project image"
             />
-            <div className="flex flex-wrap gap-2 justify-center">
-              <div className="badge badge-primary">React</div>
-              <div className="badge badge-primary">Mongo DB</div>
-              <div className="badge badge-primary">Express</div>
-              <div className="badge badge-primary">Map Leaflet</div>
-            </div>
-            <div className="text-sm text-gray-500 ">
-              This project was great learning how map leaflets work. The idea of
-              the site is users can uplaod photos and it uses metadata to find
-              the location and pin that location on the map. I also added using
-              an API to find the top 10 closest Points of interest add it on the
-              map.
+            <div className="w-full flex flex-col gap-2 px-2">
+              <div className="flex flex-wrap gap-2 justify-center">
+                <div className="badge badge-primary">React</div>
+                <div className="badge badge-primary">Mongo DB</div>
+                <div className="badge badge-primary">Express</div>
+                <div className="badge badge-primary">Map Leaflet</div>
+              </div>
+              <div className="text-sm text-gray-500 ">
+                This project was great learning how map leaflets work. The idea of
+                the site is users can uplaod photos and it uses metadata to find
+                the location and pin that location on the map. I also added using
+                an API to find the top 10 closest Points of interest add it on the
+                map.
+              </div>
             </div>
           </Link>
         </div>
@@ -65,17 +67,19 @@ const ProjectSection = () => {
               className="h-32 border border-x-gray-600 border-y-gray-600 hover:border-white my-2"
               alt="project image"
             />
-            <div className="flex flex-wrap gap-2 justify-center">
-              <div className="badge badge-primary">React</div>
-              <div className="badge badge-primary">Mongo DB</div>
-              <div className="badge badge-primary">Express</div>
-              <div className="badge badge-primary">Stripe API</div>
-            </div>
-            <div className="text-sm text-gray-500 ">
-              This project was built specific for a client and their currently
-              ran business. They needed a working cart that adds items. When the
-              client is ready to checkout the payment is processed through
-              Stripe. Fully functional Store.
+            <div className="w-full flex flex-col gap-2 px-2">
+              <div className="flex flex-wrap gap-2 justify-center">
+                <div className="badge badge-primary">React</div>
+                <div className="badge badge-primary">Mongo DB</div>
+                <div className="badge badge-primary">Express</div>
+                <div className="badge badge-primary">Stripe API</div>
+              </div>
+              <div className="text-sm text-gray-500 ">
+                This project was built specific for a client and their currently
+                ran business. They needed a working cart that adds items. When the
+                client is ready to checkout the payment is processed through
+                Stripe. Fully functional Store.
+              </div>
             </div>
           </Link>
         </div>
@@ -87,17 +91,19 @@ const ProjectSection = () => {
               className="h-32 border border-x-gray-600 border-y-gray-600 hover:border-white my-2"
               alt="project image"
             />
-            <div className="flex flex-wrap gap-2 justify-center">
-              <div className="badge badge-primary">React</div>
-              <div className="badge badge-primary">Mongo DB</div>
-              <div className="badge badge-primary">Express</div>
-              <div className="badge badge-primary">Node</div>
-            </div>
-            <div className="text-sm text-gray-500 ">
-              This project was built for a client and changed to a SAAS. I had
-              close communication with the client on what was needed to help
-              manage their clients. Specifically, what information needs to be
-              stored and explaing how secure their clients data is.
+            <div className="w-full flex flex-col gap-2 px-2">
+              <div className="flex flex-wrap gap-2 justify-center">
+                <div className="badge badge-primary">React</div>
+                <div className="badge badge-primary">Mongo DB</div>
+                <div className="badge badge-primary">Express</div>
+                <div className="badge badge-primary">Node</div>
+              </div>
+              <div className="text-sm text-gray-500 ">
+                This project was built for a client and changed to a SAAS. I had
+                close communication with the client on what was needed to help
+                manage their clients. Specifically, what information needs to be
+                stored and explaing how secure their clients data is.
+              </div>
             </div>
           </Link>
         </div>
@@ -109,17 +115,19 @@ const ProjectSection = () => {
               className="h-32 border border-x-gray-600 border-y-gray-600 hover:border-white my-2"
               alt="project image"
             />
-            <div className="flex flex-wrap gap-2 justify-center">
-              <div className="badge badge-primary">React</div>
-              <div className="badge badge-primary">Mongo DB</div>
-              <div className="badge badge-primary">Express</div>
-              <div className="badge badge-primary">Node</div>
-            </div>
-            <div className="text-sm text-gray-500 ">
-              This project was a passion project for me. I wanted to build a
-              project that allowed me to track habits that I want to build. It
-              allows users to focus on a few core habits to build that muscle to
-              continue consistancy.
+            <div className="w-full flex flex-col gap-2 px-2">
+              <div className="flex flex-wrap gap-2 justify-center">
+                <div className="badge badge-primary">React</div>
+                <div className="badge badge-primary">Mongo DB</div>
+                <div className="badge badge-primary">Express</div>
+                <div className="badge badge-primary">Node</div>
+              </div>
+              <div className="text-sm text-gray-500 ">
+                This project was a passion project for me. I wanted to build a
+                project that allowed me to track habits that I want to build. It
+                allows users to focus on a few core habits to build that muscle to
+                continue consistancy.
+              </div>
             </div>
           </Link>
         </div>
