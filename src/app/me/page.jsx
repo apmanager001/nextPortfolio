@@ -54,13 +54,13 @@ const Me = () => {
             <div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
               <Link
                 href="https://www.linkedin.com/in/robertfoleyiii/"
-                className="block  text-gray-600 transition-all duration-500 hover:text-green-700 "
+                className="block text-gray-600 transition-all duration-500 hover:text-green-700 "
               >
                 <Linkedin />
               </Link>
               <Link
                 href="https://github.com/apmanager001"
-                className="block  text-gray-600 transition-all duration-500 hover:text-green-700 "
+                className="block text-gray-600 transition-all duration-500 hover:text-green-700 "
               >
                 <Github />
               </Link>

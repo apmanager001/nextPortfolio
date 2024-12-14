@@ -36,7 +36,9 @@ const TopBlogs = () => {
   }
 
   return (
-    <div className="flex flex-col md:flex-row items-center md:justify-center py-10 md:p-28 gap-6">
+    <div>
+    <h2 className="text-center text-2xl pt-10">Recent Blog Posts</h2>
+    <div className="flex flex-col md:flex-row items-center md:justify-center pb-10 md:px-28 pt-10 gap-6">
       {posts.map((item, index) => {
         // Assuming the first image in the content is the featured image
         const imageUrlMatch = item.content.match(/<img src="([^"]+)"/);
@@ -76,6 +78,7 @@ const TopBlogs = () => {
           </div>
         );
       })}
+    </div>
     </div>
   );
 };
