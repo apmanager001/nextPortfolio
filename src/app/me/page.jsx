@@ -12,7 +12,7 @@ import {
 
 const Me = () => {
   return (
-    <div className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover bg-bottom bg-[url('/7.jpg')]">
+    <div className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover bg-bottom bg-[url('/photos/7.jpg')]">
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto">
         <div
           id="profile"
@@ -63,6 +63,13 @@ const Me = () => {
                 className="block  text-gray-600 transition-all duration-500 hover:text-green-700 "
               >
                 <Github />
+              </Link>
+              <Link
+                href="https://robertfoley.substack.com/"
+                target="_blank"
+                className="block"
+              >
+                <img className="h-8" src="/substack.png" />
               </Link>
               <Link
                 href="https://www.instagram.com/foleyautamatic/"

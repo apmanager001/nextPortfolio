@@ -62,6 +62,13 @@ const Footer = () => {
               <Github />
             </Link>
             <Link
+              href="https://robertfoley.substack.com/"
+              target="_blank"
+              className="block"
+            >
+              <img className="h-8" src="/substack.png" />
+            </Link>
+            <Link
               href="https://www.instagram.com/foleyautamatic/"
               target="_blank"
               className="block  text-gray-600 transition-all duration-500 hover:text-indigo-600 "
