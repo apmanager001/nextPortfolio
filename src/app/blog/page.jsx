@@ -32,7 +32,11 @@ const Blog = () => {
   }
 
   if (posts.length === 0) {
-    return <div>Loading latest posts...</div>;
+    return (
+      <div className="flex justify-center h-96 w-full">
+        <span className="loading loading-dots loading-lg text-accent"></span>
+      </div>
+    );
   }
   return (
     <div className="flex flex-col md:flex-row items-center md:justify-center py-10 md:p-28 gap-6">
@@ -46,9 +50,10 @@ const Blog = () => {
         const subtitle = item.description || "No Subtitle Provided";
         const truncatedBody =
           item.content.replace(/<[^>]+>/g, "").slice(0, 150) + "...";
+        const pubDate = new Date(item.pubDate).toLocaleDateString();
         return (
           <div
-            className="flex flex-col justify-between gap-2 border border-gray-500 rounded-2xl shadow-2xl h-96 w-96"
+            className="flex flex-col justify-between gap-2 border border-gray-500 hover:border-gray-300 rounded-2xl shadow-2xl h-[500px] w-72"
             key={index}
           >
             <Link
@@ -70,6 +75,7 @@ const Blog = () => {
                 <h3 className="text-xl">{title}</h3>
                 <p className="text-md text-gray-500">{subtitle}</p>
                 <p className="text-sm text-gray-600 mt-2">{truncatedBody}</p>
+                <p className="text-right text-sm text-gray-700">{pubDate}</p>
               </div>
             </Link>
           </div>
