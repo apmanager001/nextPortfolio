@@ -9,7 +9,7 @@ const Header = () => {
         return (
           <>
             <li>
-              <Link href="/me">Myself</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
