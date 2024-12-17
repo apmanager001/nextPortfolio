@@ -138,9 +138,8 @@ const ProjectSection = () => {
             <div className="w-full flex flex-col gap-2 px-2">
               <div className="flex flex-wrap gap-2 justify-center">
                 <div className="badge badge-primary">React</div>
-                <div className="badge badge-primary">Mongo DB</div>
-                <div className="badge badge-primary">Express</div>
-                <div className="badge badge-primary">Node</div>
+                <div className="badge badge-primary">Supabase</div>
+                <div className="badge badge-primary">Oauth</div>
               </div>
               <div className="text-sm text-gray-500 ">
                 This project was a passion project for me. I wanted to build a
