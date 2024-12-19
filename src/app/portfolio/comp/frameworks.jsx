@@ -18,6 +18,15 @@ const Frameworks = () => {
         </div>
       </div>
       <div className="flex flex-col items-center my-4 h-60 w-72 border border-gray-600 hover:border-gray-400 rounded-2xl p-10 shadow-2xl">
+        <h3>Languages</h3>
+        <div className="flex flex-wrap gap-2 justify-center my-10">
+          <div className="badge badge-primary">HTML</div>
+          <div className="badge badge-primary">CSS</div>
+          <div className="badge badge-primary">JavaScript</div>
+          <div className="badge badge-primary">SQL</div>
+        </div>
+      </div>
+      <div className="flex flex-col items-center my-4 h-60 w-72 border border-gray-600 hover:border-gray-400 rounded-2xl p-10 shadow-2xl">
         <h3>Services</h3>
         <div className="flex flex-wrap gap-2 justify-center my-10">
           <div className="badge badge-primary">Stripe API</div>
