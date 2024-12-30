@@ -11,12 +11,13 @@ const ProjectSection = () => {
       badges: [
         "React",
         "NPM",
+        "Calendar",
         <img
           src="https://img.shields.io/npm/dw/simple-react-heatcalendar"
           alt="NPM Downloads"
         />,
       ],
-      description: "This is a public npm package that allows users to ",
+      description: "This is a public npm package that allows users to use a full customizable calendar component. You can change the year and month and pass a value for which days to highlight on the calendar.",
     },
     {
       title: "Quilted Chronicles",
