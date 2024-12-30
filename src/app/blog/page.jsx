@@ -53,7 +53,7 @@ const Blog = () => {
         const pubDate = new Date(item.pubDate).toLocaleDateString();
         return (
           <div
-            className="flex flex-col justify-between gap-2 border border-gray-500 hover:border-gray-300 rounded-2xl shadow-2xl h-[500px] w-72"
+            className="flex justify-between gap-2 border border-gray-500 hover:border-gray-300 rounded-2xl hover:shadow-2xl h-[500px] w-72"
             key={index}
           >
             <Link
@@ -62,21 +62,21 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="h-1/2">
-                {imageUrl && (
-                  <img
-                    src={imageUrl}
-                    alt={title}
-                    className="rounded-t-2xl h-full w-full"
-                  />
-                )}
-              </div>
-              <div className="h-1/2 p-8">
-                <h3 className="text-xl">{title}</h3>
-                <p className="text-md text-gray-500">{subtitle}</p>
-                <p className="text-sm text-gray-600 mt-2">{truncatedBody}</p>
-                <p className="text-right text-sm text-gray-700">{pubDate}</p>
-              </div>
+                <div className="h-1/2">
+                  {imageUrl && (
+                    <img
+                      src={imageUrl}
+                      alt={title}
+                      className="rounded-t-2xl h-full w-full"
+                    />
+                  )}
+                </div>
+                <div className="h-1/2 p-8 flex flex-col justify-around">
+                  <h3 className="text-xl text-center">{title}</h3>
+                  {/* <p className="text-md text-gray-500">{subtitle}</p> */}
+                  <p className="text-sm text-gray-600 mt-2">{truncatedBody}</p>
+                  <p className="text-right text-sm text-gray-700">{pubDate}</p>
+                </div>
             </Link>
           </div>
         );
