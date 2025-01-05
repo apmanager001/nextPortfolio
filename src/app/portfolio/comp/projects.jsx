@@ -67,7 +67,7 @@ const ProjectSection = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col gap-2 w-3/4 md:w-80 border border-gray-600 hover:border-gray-400 rounded-2xl shadow-2xl"
+            className="flex flex-col gap-2 w-3/4 md:w-80 border border-gray-600 hover:border-gray-400 rounded-2xl hover:shadow-2xl"
           >
             <Link
               href={project.href}

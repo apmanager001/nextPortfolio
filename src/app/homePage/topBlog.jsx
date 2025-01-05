@@ -56,7 +56,7 @@ const TopBlogs = () => {
         const pubDate = new Date(item.pubDate).toLocaleDateString();
         return (
           <div
-            className="flex flex-col justify-between gap-2 border border-gray-500 hover:border-gray-300 rounded-2xl hover:shadow-2xl h-[500px] w-72"
+            className="flex flex-col justify-between gap-2 border hover:border-4  border-gray-500 hover:border-gray-300 rounded-2xl hover:shadow-2xl h-[500px] w-72"
             key={index}
           >
             <Link

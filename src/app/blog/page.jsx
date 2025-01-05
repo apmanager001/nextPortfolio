@@ -15,7 +15,7 @@ const Blog = () => {
         const data = await response.json();
 
         // Get up to three items from the feed
-        const latestItems = (data.items || []).slice(0, 3);
+        const latestItems = (data.items || []);
 
         setPosts(latestItems);
       } catch (error) {
