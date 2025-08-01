@@ -8314,7 +8314,8 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Canada"
+          "name": "Canada",
+          "image": "/countries/canada.png"
         },
         "geometry": {
           "type": "MultiPolygon",

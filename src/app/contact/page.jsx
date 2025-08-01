@@ -1,4 +1,44 @@
-import React from 'react'
+import React from "react";
+
+export const metadata = {
+  title: "Contact",
+  description:
+    "Get in touch with Robert Foley for web development projects, collaborations, or just to say hello. Available for freelance work and interesting opportunities.",
+  keywords: [
+    "Contact",
+    "Contact Robert Foley",
+    "Hire Developer",
+    "Freelance Developer",
+    "Web Development Contact",
+    "Developer Contact",
+    "Project Inquiry",
+    "Collaboration",
+  ],
+  openGraph: {
+    title: "Contact | Robert Foley - Full Stack Developer",
+    description:
+      "Get in touch with Robert Foley for web development projects, collaborations, or just to say hello. Available for freelance work and interesting opportunities.",
+    url: "https://robertfoley.dev/contact",
+    images: [
+      {
+        url: "/profile.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Robert Foley - Full Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact | Robert Foley - Full Stack Developer",
+    description:
+      "Get in touch with Robert Foley for web development projects and collaborations.",
+    images: ["/profile.jpg"],
+  },
+  alternates: {
+    canonical: "https://robertfoley.dev/contact",
+  },
+};
 
 const Contact = () => {
   return (
@@ -64,9 +104,9 @@ const Contact = () => {
         </div>
       </form> */}
       <span>Send me an email at:</span>
-      <h1 className='text-xl font-bold'>contact@robertfoley.us</h1>
+      <h1 className="text-xl font-bold">contact@robertfoley.us</h1>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;
