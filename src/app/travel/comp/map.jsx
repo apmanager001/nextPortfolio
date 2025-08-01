@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { ResponsiveChoropleth } from "@nivo/geo";
 import worldFeatures from "./world_countries.json";
 import CustomTooltip from "./customTooltip";

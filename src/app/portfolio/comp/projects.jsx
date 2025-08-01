@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ExternalLink, Github, Globe, Package } from "lucide-react";
+import { ExternalLink, Globe, Package } from "lucide-react";
 import Script from "next/script";
 
 const ProjectSection = () => {

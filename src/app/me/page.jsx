@@ -1,6 +1,5 @@
-import React from 'react'
-import Link from 'next/link';
-import Image from 'next/image'
+import React from "react";
+import Link from "next/link";
 import {
   Linkedin,
   Github,
@@ -97,6 +96,6 @@ const Me = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Me
+export default Me;
