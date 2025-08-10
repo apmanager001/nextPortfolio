@@ -25,7 +25,7 @@ const ProjectSection = () => {
     {
       title: "Quilted Chronicles",
       href: "https://quiltedchronicles.org",
-      imgSrc: "/projects/adventure.jpg",
+      imgSrc: "/projects/quilted2.png",
       type: "website",
       badges: ["React", "Mongo DB", "Express", "Node"],
       description:
@@ -33,22 +33,22 @@ const ProjectSection = () => {
     },
     {
       title: "My Trip Map",
-      href: "https://mytripmaps200.netlify.app/",
-      imgSrc: "/projects/tripmap.jpg",
+      href: "https://mytripmaps.com",
+      imgSrc: "/projects/tripmaps.png",
       type: "website",
       badges: ["React", "Mongo DB", "Express", "Map Leaflet"],
       description:
         "This project was great learning how map leaflets work. The idea of the site is users can upload photos and it uses metadata to find the location and pin that location on the map. I also added using an API to find the top 10 closest Points of interest add it on the map.",
     },
-    {
-      title: "LM Treasure Trove",
-      href: "https://lmtreasuretrove.com",
-      imgSrc: "/projects/lmtreasure.jpg",
-      type: "ecommerce",
-      badges: ["React", "Mongo DB", "Express", "Stripe API"],
-      description:
-        "This project was built specific for a client and their currently ran business. They needed a working cart that adds items. When the client is ready to checkout the payment is processed through Stripe. Fully functional Store.",
-    },
+    // {
+    //   title: "LM Treasure Trove",
+    //   href: "https://lmtreasuretrove.com",
+    //   imgSrc: "/projects/lmtreasure.jpg",
+    //   type: "ecommerce",
+    //   badges: ["React", "Mongo DB", "Express", "Stripe API"],
+    //   description:
+    //     "This project was built specific for a client and their currently ran business. They needed a working cart that adds items. When the client is ready to checkout the payment is processed through Stripe. Fully functional Store.",
+    // },
     {
       title: "Coup Group",
       href: "https://www.coupgroup.com",
@@ -59,14 +59,32 @@ const ProjectSection = () => {
         "This project was built for a client and changed to a SAAS. I had close communication with the client on what was needed to help manage their clients. Specifically, what information needs to be stored and explaining how secure their clients data is.",
     },
     {
-      title: "Habiting",
-      href: "https://habiting.netlify.app/",
-      imgSrc: "/projects/habiting.jpg",
-      type: "app",
-      badges: ["React", "Supabase", "Oauth"],
+      title: "Boring Squirrel",
+      href: "https://boringsquirrel.com",
+      imgSrc: "/projects/bsquir.png",
+      type: "website",
+      badges: ["React", "Next.js", "Postgres", "Express", "Node"],
       description:
-        "This project was a passion project for me. I wanted to build a project that allowed me to track habits that I want to build. It allows users to focus on a few core habits to build that muscle to continue consistency.",
+        "This project is a passion project for me. I wanted to build a project that allows users to play strategic/board games and challange each other to get high scores. This is an ongoing project and I am adding more games and features as needed.",
     },
+    {
+      title: "Cosmic Journal",
+      href: "https://cosmicjournal.app",
+      imgSrc: "/projects/cosmic.png",
+      type: "website",
+      badges: ["React", "Next.js", "Tailwind", "Supabase"],
+      description:
+        "This project is about helping users build positive and meaningful habits. Using best practise of journaling. Each day the user can discribe their day and mood they were in. This allows them to look back on their days and see patterns and improvements. Still a work in progress as I build out new features, but fully functional.",
+    },
+    // {
+    //   title: "Habiting",
+    //   href: "https://habiting.netlify.app/",
+    //   imgSrc: "/projects/habiting.jpg",
+    //   type: "app",
+    //   badges: ["React", "Supabase", "Oauth"],
+    //   description:
+    //     "This project was a passion project for me. I wanted to build a project that allowed me to track habits that I want to build. It allows users to focus on a few core habits to build that muscle to continue consistency.",
+    // },
   ];
 
   const getProjectIcon = (type) => {
