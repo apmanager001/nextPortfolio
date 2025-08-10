@@ -49,15 +49,15 @@ const ProjectSection = () => {
     //   description:
     //     "This project was built specific for a client and their currently ran business. They needed a working cart that adds items. When the client is ready to checkout the payment is processed through Stripe. Fully functional Store.",
     // },
-    {
-      title: "Coup Group",
-      href: "https://www.coupgroup.com",
-      imgSrc: "/projects/coup.jpg",
-      type: "saas",
-      badges: ["React", "Mongo DB", "Express", "Node"],
-      description:
-        "This project was built for a client and changed to a SAAS. I had close communication with the client on what was needed to help manage their clients. Specifically, what information needs to be stored and explaining how secure their clients data is.",
-    },
+    // {
+    //   title: "Coup Group",
+    //   href: "https://www.coupgroup.com",
+    //   imgSrc: "/projects/coup.jpg",
+    //   type: "saas",
+    //   badges: ["React", "Mongo DB", "Express", "Node"],
+    //   description:
+    //     "This project was built for a client and changed to a SAAS. I had close communication with the client on what was needed to help manage their clients. Specifically, what information needs to be stored and explaining how secure their clients data is.",
+    // },
     {
       title: "Boring Squirrel",
       href: "https://boringsquirrel.com",
