@@ -59,6 +59,15 @@ const ProjectSection = () => {
     //     "This project was built for a client and changed to a SAAS. I had close communication with the client on what was needed to help manage their clients. Specifically, what information needs to be stored and explaining how secure their clients data is.",
     // },
     {
+      title: "Locale Michigan",
+      href: "https://localemichigan.com",
+      imgSrc: "/projects/michigan.png",
+      type: "website",
+      badges: ["React", "Next.js", "Tailwind"],
+      description:
+        "This project was created to try to build a directory website for Michigan. It includes Lakes, Parks, and other places to visit in Michigan. It is a work in progress and I am adding more features as needed.",
+    },
+    {
       title: "Boring Squirrel",
       href: "https://boringsquirrel.com",
       imgSrc: "/projects/bsquir.png",
