@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nivo/geo": "^0.88.0",
+    "@nivo/geo": "^0.99.0",
     "daisyui": "^4.12.21",
     "lucide-react": "^0.468.0",
     "react-hot-toast": "^2.4.1"
