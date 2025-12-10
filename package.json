@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nivo/geo": "^0.99.0",
-    "daisyui": "^4.12.21",
+    "daisyui": "^5.5.11",
     "lucide-react": "^0.468.0",
     "react-hot-toast": "^2.4.1"
   },

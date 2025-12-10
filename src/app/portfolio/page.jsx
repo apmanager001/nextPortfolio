@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectSection from "./comp/projects";
 import Frameworks from "./comp/frameworks";
-import { Code2, Briefcase, Award } from "lucide-react";
+import { Code2, Briefcase, Award, BriefcaseBusiness } from "lucide-react";
+import Timeline from "./comp/timeline";
 
 export const metadata = {
   title: "Portfolio",
@@ -53,7 +54,7 @@ const Portfolio = () => {
           <div className="max-w-2xl">
             <div className="flex justify-center mb-6">
               <div className="avatar placeholder">
-                <div className="bg-neutral text-neutral-content rounded-full w-24">
+                <div className="bg-neutral text-neutral-content rounded-full w-24 flex justify-center items-center">
                   <span className="text-3xl">
                     <Code2 className="w-12 h-12" />
                   </span>
@@ -106,7 +107,18 @@ const Portfolio = () => {
         </div>
         <Frameworks />
       </div>
-
+      <div className="container mx-auto px-4 py-16 flex flex-col items-center">
+        <div className="text-center mb-12 md:mb-0">
+          <h2 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
+            <BriefcaseBusiness className="w-8 h-8 text-primary" />
+            Resume
+          </h2>
+          <p className="text-lg opacity-70 max-w-2xl mx-auto">
+            My professional journey, education, and accomplishments my career
+          </p>
+        </div>
+        <Timeline />
+      </div>
       {/* Projects Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">

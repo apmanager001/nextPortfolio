@@ -1,6 +1,4 @@
 import Me from "./me/page";
-import TopBlogs from "./homePage/topBlog";
-import Newsletter from "./homePage/comp/newsletter";
 
 export const metadata = {
   title: "Home",
@@ -45,8 +43,6 @@ export default function Home() {
   return (
     <div className="">
       <Me />
-      <Newsletter />
-      <TopBlogs />
     </div>
   );
 }

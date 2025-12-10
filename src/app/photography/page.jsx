@@ -52,7 +52,7 @@ const Photography = () => {
           <div className="max-w-2xl">
             <div className="flex justify-center mb-6">
               <div className="avatar placeholder">
-                <div className="bg-neutral text-neutral-content rounded-full w-24">
+                <div className="bg-neutral text-neutral-content rounded-full w-24 flex justify-center items-center">
                   <span className="text-3xl">
                     <Camera className="w-12 h-12" />
                   </span>
