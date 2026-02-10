@@ -6,21 +6,21 @@ import Script from "next/script";
 const ProjectSection = () => {
   const projects = [
     {
-      title: "NPM Package: simple-react-heatcalendar",
-      href: "https://www.npmjs.com/package/simple-react-heatcalendar",
-      imgSrc: "/projects/npm.jpg",
+      title: "NPM Package: react-fill-calendar",
+      href: "https://www.npmjs.com/package/react-fill-calendar",
+      imgSrc: "/projects/calendar2.png",
       type: "package",
       badges: [
         "React",
         "NPM",
         "Calendar",
         <img
-          src="https://img.shields.io/npm/dw/simple-react-heatcalendar"
+          src="https://img.shields.io/npm/dw/react-fill-calendar"
           alt="NPM Downloads"
         />,
       ],
       description:
-        "This is a public npm package that allows users to use a full customizable calendar component. You can change the year and month and pass a value for which days to highlight on the calendar.",
+        "A lightweight, customizable React calendar component that automatically fills and highlights dates passed in as props. Designed for simplicity, reusability, and easy styling with Tailwind and DaisyUI.",
     },
     {
       title: "Quilted Chronicles",
@@ -79,11 +79,28 @@ const ProjectSection = () => {
     {
       title: "Cosmic Journal",
       href: "https://cosmicjournal.app",
-      imgSrc: "/projects/cosmic.png",
+      imgSrc: "/projects/cosmicJournal.png",
       type: "website",
       badges: ["React", "Next.js", "Tailwind", "Supabase"],
       description:
         "This project is about helping users build positive and meaningful habits. Using best practise of journaling. Each day the user can discribe their day and mood they were in. This allows them to look back on their days and see patterns and improvements. Still a work in progress as I build out new features, but fully functional.",
+    },
+    {
+      title: "NPM Package: simple-react-heatcalendar",
+      href: "https://www.npmjs.com/package/simple-react-heatcalendar",
+      imgSrc: "/projects/npm.jpg",
+      type: "package",
+      badges: [
+        "React",
+        "NPM",
+        "Calendar",
+        <img
+          src="https://img.shields.io/npm/dw/simple-react-heatcalendar"
+          alt="NPM Downloads"
+        />,
+      ],
+      description:
+        "This is a public npm package that allows users to use a full customizable calendar component. You can change the year and month and pass a value for which days to highlight on the calendar.",
     },
     // {
     //   title: "Habiting",
@@ -194,12 +211,12 @@ const ProjectSection = () => {
                   typeof badge === "string" ? (
                     <div
                       key={badgeIndex}
-                      className="badge badge-primary badge-outline"
+                      className="badge badge-primary badge-soft"
                     >
                       {badge}
                     </div>
                   ) : (
-                    <div key={badgeIndex} className="badge badge-secondary">
+                    <div key={badgeIndex} className="badge badge-secondary badge-soft">
                       {badge}
                     </div>
                   )

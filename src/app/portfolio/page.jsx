@@ -71,21 +71,24 @@ const Portfolio = () => {
             <div className="flex justify-center gap-4">
               <div className="stats shadow">
                 <div className="stat">
-                  <div className="stat-figure text-primary">
+                  {/* <div className="stat-figure text-primary">
                     <Briefcase className="w-6 h-6" />
+                  </div> */}
+                  <div className="stat-title flex gap-2 text-base-content/40 items-center">
+                    <Briefcase className="w-6 h-6" />
+                    <div >Projects</div>
                   </div>
-                  <div className="stat-title">Projects</div>
                   <div className="stat-value text-primary">6+</div>
                 </div>
               </div>
               <div className="stats shadow">
                 <div className="stat">
-                  <div className="stat-figure text-secondary">
+                  <div className="stat-title flex gap-2 text-base-content/40 items-center">
                     <Award className="w-6 h-6" />
+                    <div >Experience</div>
                   </div>
-                  <div className="stat-title">Experience</div>
-                  <div className="stat-value text-secondary">3+</div>
-                  <div className="stat-desc">Years</div>
+                  <div className="stat-value text-secondary">4+ <span className="text-xs">Years</span></div>
+                  {/* <div className="stat-desc">Years</div> */}
                 </div>
               </div>
             </div>
